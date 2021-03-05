@@ -50,6 +50,13 @@
       <version>3.0.0</version> 
     </dependency>  
     <!-- end::cosmosdb[] --> 
+    <!-- tag::applicationinsights[] --> 
+    <dependency>
+      <groupId>com.microsoft.azure</groupId>
+      <artifactId>applicationinsights-spring-boot-starter</artifactId>
+      <version>2.5.1</version>
+    </dependency>
+    <!-- end::applicationinsights[] --> 
   </dependencies>  
   <build> 
     <plugins> 
